@@ -1,2 +1,2 @@
 # RRRRMarkdown
-Code demos for Reproducible Research and Reports, a video course with O'Reilly Media
+Code demos for _Reproducible Research and Reports with R Markdown_, a video course with O'Reilly Media.
