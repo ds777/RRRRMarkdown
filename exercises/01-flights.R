@@ -1,5 +1,8 @@
 # QUESTION: Which NYC airport has the longest delays for a given day of the week?
 
+# If you do nto have one or more of the packages used below, please install them
+# by connecting to the internet, opening an R session and running this command (without the #):
+# install.packages(c("nycflights13", "dplyr", "ggplot2", "lubridate"))
 library(nycflights13) # data
 library(dplyr)        # cleaning functions
 library(ggplot2)      # plotting functions
