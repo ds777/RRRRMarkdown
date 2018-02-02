@@ -12,6 +12,7 @@ selectInput("dow", "Choose day of the week:",
 
 
 ```{r echo = FALSE, message = FALSE, warning = FALSE}
+if(!require(nycflights13)) install.packages("nycflights13",repos = "http://cran.us.r-project.org")
 library(nycflights13) # data
 library(dplyr)        # cleaning functions
 library(ggplot2)      # plotting functions
