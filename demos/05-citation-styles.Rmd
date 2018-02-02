@@ -1,6 +1,12 @@
 ---
 bibliography: delays.bib
 csl: apa.csl
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  word_document: default
+  github_document: default
 ---
 
 Set the `bibliography:` field to a filepath that leads from the .Rmd location to the bib file location.
